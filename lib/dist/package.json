@@ -1,7 +1,7 @@
 {
   "name": "reactive-forms-typed",
   "version": "11.0.0",
-  "author": "Sergio Wilson <hello@angularfirebase.com>",
+  "author": "Sergio Wilson",
   "license": "MIT",
   "peerDependencies": {
     "@angular/core": ">=8.0.0",

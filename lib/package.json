@@ -1,8 +1,12 @@
 {
   "name": "reactive-forms-typed",
   "version": "11.0.0",
-  "author": "Sergio Wilson <hello@angularfirebase.com>",
+  "author": "Sergio Wilson",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilsonsergio2500/templateall.git"
+  },
   "peerDependencies": {
     "@angular/core": ">=8.0.0",
     "@angular/common": ">=8.0.0",
