@@ -1,0 +1,27 @@
+:host{
+
+    .login-frame {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        margin-top: -10vh;
+        .login-card{
+            width: 350px;
+        }
+      }
+
+      .block {
+        display: block;
+        margin: 10px;
+      }
+      
+      .flex-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+      }
+
+}

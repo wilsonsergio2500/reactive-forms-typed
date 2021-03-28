@@ -1,0 +1,38 @@
+<div class="register-frame"> 
+
+  <mat-card class="register-card">
+   
+    <div>
+      <h3>Register Here</h3>
+
+      <form [formGroup]="form" >
+
+        <mat-form-field class="block">
+          <input matInput type="text" placeholder="Username" formControlName="username">
+          <mat-error formControlOnErrorItem="username"></mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="block">
+          <input matInput type="password" placeholder="Password" autocomplete="off" formControlName="password" >
+          <mat-error formControlOnErrorItem="password"></mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="block">
+          <input matInput type="password" placeholder="Confirm Password" autocomplete="off" formControlName="confirmPasword" >
+          <mat-error formControlOnErrorItem="confirmPasword"></mat-error>
+        </mat-form-field>
+
+        <div class="flex-center">
+          <button mat-raised-button [disabled]="form.invalid" >Register</button>
+        </div>
+
+
+      </form>
+
+    </div>
+
+  </mat-card>
+
+</div>
+
+  

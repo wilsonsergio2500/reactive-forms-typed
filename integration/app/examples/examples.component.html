@@ -1,0 +1,62 @@
+<mat-sidenav-container fullscreen>
+
+
+  <mat-sidenav #start [opened]="mobileQuery.matches ? false : true" [mode]="mobileQuery.matches ? 'over' : 'side'">
+
+    <mat-accordion>
+
+      <mat-expansion-panel expanded="true" class="noshadow">
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Form Examples
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <mat-list>
+          <mat-list-item class="menu-list-item mat-list-option mat-focus-indicator">
+            <a matLine routerLink="/examples/login">
+              <span>Login</span>
+            </a>
+          </mat-list-item>
+          <mat-list-item class="menu-list-item mat-list-option mat-focus-indicator">
+            <a matLine routerLink="/examples/register">
+              <span>Registration</span>
+            </a>
+          </mat-list-item>
+        </mat-list>
+
+      </mat-expansion-panel>
+    </mat-accordion>
+
+
+  </mat-sidenav>
+
+
+  <mat-sidenav-content class="side-content">
+
+
+    <mat-toolbar color="primary">
+
+      <mat-toolbar-row>
+
+        <button mat-icon-button (click)="start.open('mouse')" *ngIf="mobileQuery.matches ? true : false">
+          <mat-icon aria-label="menu icon-button with a heart icon">menu</mat-icon>
+        </button>
+
+        <span class="app-title">{{title}}</span>
+        <span class="fill-space"></span>
+
+
+
+      </mat-toolbar-row>
+
+    </mat-toolbar>
+
+    <div class="dashboard-content">
+      <router-outlet></router-outlet>
+    </div>
+
+
+  </mat-sidenav-content>
+
+</mat-sidenav-container>

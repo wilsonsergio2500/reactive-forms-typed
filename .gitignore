@@ -44,3 +44,8 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+/.vs/reactive-forms-typed/v16/.suo
+/.vs/reactive-forms-typed/config/applicationhost.config

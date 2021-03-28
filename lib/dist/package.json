@@ -1,0 +1,35 @@
+{
+  "name": "reactive-forms-typed",
+  "version": "11.0.0",
+  "author": "Sergio Wilson <hello@angularfirebase.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/core": ">=8.0.0",
+    "@angular/common": ">=8.0.0",
+    "@angular/forms": ">=8.0.0",
+    "rxjs": ">=6.0.0"
+  },
+  "main": "bundles/reactive-forms-typed.umd.js",
+  "module_ivy_ngcc": "__ivy_ngcc__/fesm2015/reactive-forms-typed.js",
+  "module": "fesm2015/reactive-forms-typed.js",
+  "es2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/reactive-forms-typed.js",
+  "es2015": "fesm2015/reactive-forms-typed.js",
+  "esm2015": "esm2015/reactive-forms-typed.js",
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/reactive-forms-typed.js",
+  "fesm2015": "fesm2015/reactive-forms-typed.js",
+  "typings": "reactive-forms-typed.d.ts",
+  "metadata": "reactive-forms-typed.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "11.2.6",
+    "fesm2015": "11.2.6",
+    "module": "11.2.6",
+    "typings": "11.2.6"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}

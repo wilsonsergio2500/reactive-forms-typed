@@ -1,0 +1,20 @@
+:host{
+
+    .register-frame{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        margin-top: -10vh;
+        .register-card{
+            width: 350px;
+        }
+    }
+
+    .block {
+        display: block;
+        margin: 10px;
+      }
+
+}

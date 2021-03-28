@@ -1,0 +1,19 @@
+{
+  "name": "reactive-forms-typed",
+  "version": "11.0.0",
+  "author": "Sergio Wilson <hello@angularfirebase.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/core": ">=8.0.0",
+    "@angular/common": ">=8.0.0",
+    "@angular/forms": ">=8.0.0",
+    "rxjs": ">=6.0.0"
+  },
+  "ngPackage": {
+    "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+    "lib": {
+      "entryFile": "public_api.ts"
+    },
+    "dest": "dist"
+  }
+}

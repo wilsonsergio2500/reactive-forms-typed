@@ -1,0 +1,43 @@
+:host {
+  display: flex;
+  height: 100%;
+
+
+  .noshadow {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .side-content {
+    overflow-y: hidden;
+    display: flex;
+    height: 100%;
+    flex-flow: column;
+  }
+
+  .dashboard-content {
+    height: 100%;
+    overflow-y: auto;
+    width: 100%;
+    flex: 1 1 auto;
+  }
+
+
+  .mat-sidenav {
+    width: 240px;
+    box-shadow: 0 0 4px 2px rgba(0,0,0,.2);
+  }
+
+  .mat-sidenav .mat-toolbar {
+    width: 240px;
+    position: relative;
+  }
+
+  ::ng-deep {
+    .mat-list-item-content a {
+        text-decoration:none;
+    }
+  }
+
+}

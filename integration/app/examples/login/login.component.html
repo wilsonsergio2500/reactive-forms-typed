@@ -1,0 +1,32 @@
+<div class="login-frame">
+  <mat-card class="login-card">
+    <div class="logo-font logo-header color-primary">
+      Fire8
+    </div>
+    <div class="flex-center">
+      <span class="subheading">Welcome to Login Page</span>
+    </div>
+    <div class="form-region">
+
+      <form [formGroup]="form" (ngSubmit)="submit()">
+
+        <mat-form-field class="block">
+          <input matInput type="text" placeholder="Username" formControlName="username">
+          <mat-error formControlOnErrorItem="username"></mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="block">
+          <input matInput type="Password" placeholder="Password" autocomplete="off" formControlName="password" >
+          <mat-error formControlOnErrorItem="password"></mat-error>
+        </mat-form-field>
+
+        <div class="flex-center">
+          <button mat-raised-button [disabled]="form.invalid" >Login</button>
+        </div>
+
+      </form>
+
+    </div>
+
+  </mat-card>
+</div>
