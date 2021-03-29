@@ -1,2 +1,2 @@
-export declare class ReactiveFormsTyped {
+export declare class ReactiveFormsTypedModule {
 }

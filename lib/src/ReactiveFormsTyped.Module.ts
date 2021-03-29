@@ -20,4 +20,4 @@ import { FormControlOnErrorItemDirective } from "./directives/form-control-onerr
   ],
    providers: [FormTypeBuilder],
 })
-export class ReactiveFormsTyped { }
+export class ReactiveFormsTypedModule { }
