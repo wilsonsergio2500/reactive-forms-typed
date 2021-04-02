@@ -1,8 +1,9 @@
 <div align="center">
 <h1>ReativeForms Types</h1>
 
-<p>Reactive Forms with type</p>
+<p>Reactive Forms with typed</p>
 </div>
+
 ## The Problem
 
 This one is mainly part of an opinion. One that I have found to assist me in promptly interpreting and creating a structure  easily to derived. I enjoy things that aid my System 1 - brain's intuitive and unconscious thinking mode - syntactically and or organizationally. However, this is but one opinion, and perhaps Angular as a library community will come up with one that is more compelling. 
@@ -88,11 +89,15 @@ export interface ILoginForm{
 
 This results in a very different experience. We are introduced with very a nice type recognition. Making form group handling safer and intuitive, and on the other hand  even enhancing developer experience.
 
+<div align="center">
 ![image-20210319132228275](https://im.ages.io/AZGpXintl1-h120-q90.png)
+</div>
 
 Doesn't it completes me? 
 
+<div align="center">
 ![image-20210319132228275](https://im.ages.io//D69DWintl1)
+</div>
 
 A common tree structure, I used in my projects when introducing this library looks like the following:
 
