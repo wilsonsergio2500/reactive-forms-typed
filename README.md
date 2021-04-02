@@ -89,15 +89,11 @@ export interface ILoginForm{
 
 This results in a very different experience. We are introduced with very a nice type recognition. Making form group handling safer and intuitive, and on the other hand  even enhancing developer experience.
 
-<div align="center">
 ![image-20210319132228275](https://im.ages.io/AZGpXintl1-h120-q90.png)
-</div>
 
 Doesn't it completes me? 
 
-<div align="center">
 ![image-20210319132228275](https://im.ages.io//D69DWintl1)
-</div>
 
 A common tree structure, I used in my projects when introducing this library looks like the following:
 
