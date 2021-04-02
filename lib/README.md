@@ -1,8 +1,9 @@
 <div align="center">
-<h1>ReativeForms Types</h1>
+<h1>ReativeForms Typed</h1>
 
 <p>Reactive Forms with type</p>
 </div>
+
 ## The Problem
 
 This one is mainly part of an opinion. One that I have found to assist me in promptly interpreting and creating a structure  easily to derived. I enjoy things that aid my System 1 - brain's intuitive and unconscious thinking mode - syntactically and or organizationally. However, this is but one opinion, and perhaps Angular as a library community will come up with one that is more compelling. 
