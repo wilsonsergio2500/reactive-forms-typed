@@ -1,3 +1,6 @@
+
+> Integrating Angular Reactive Forms with Typescript
+
 <div align="center">
 <h1>ReativeForms Typed</h1>
 
@@ -215,4 +218,4 @@ I have taken the liberty to introduced common error messages. Hence if the users
 
 ![image-20210319132228275](https://im.ages.io/aWmnWintl1)
 
-Enjoy coding, and be strongly typed my friends
+Enjoy coding, and stay strongly typed my friends :smile:
