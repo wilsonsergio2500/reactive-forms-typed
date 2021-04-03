@@ -13,6 +13,14 @@
     "@angular/forms": ">=8.0.0",
     "rxjs": ">=6.0.0"
   },
+  "keywords": [
+    "angular",
+    "forms",
+    "strongly typed",
+    "reactive-forms",
+    "reactive-forms typed",
+    "material"
+  ],
   "main": "bundles/reactive-forms-typed.umd.js",
   "module": "fesm2015/reactive-forms-typed.js",
   "es2015": "fesm2015/reactive-forms-typed.js",
